@@ -1343,9 +1343,10 @@ h3,
   font:normal 1.563em/1.2em 'LatoBlack';
   text-transform:uppercase;
   padding-bottom:40px;
-  margin-bottom:40px;
+  margin-bottom:20px;
+  margin-top:40px;
   text-align:center; 
-  color:#383838;
+  color:#fff;
 }
 h4,
 .h4 {

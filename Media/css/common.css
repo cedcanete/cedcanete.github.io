@@ -337,9 +337,10 @@ body {
 	padding-bottom:16px;	
 }
 .faq-answer p{
-	font-size:0.875em;
-	color:#303030;	
-	margin-bottom:0;	
+	font-size:1.1em;
+	color:#fff;	
+	font-weight: bold;
+	margin-bottom:5px;	
 }
 .btn{
 	font:normal 17px 'LatoBlack';
@@ -386,6 +387,10 @@ body {
 }
 .paddingLeft36{
 	padding-left:36px;	
+}
+
+.single-faq.open ul li{
+	text-align:left;
 }
 
 /*
