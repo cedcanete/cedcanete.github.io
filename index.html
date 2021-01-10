@@ -8,6 +8,7 @@
 <!-- Bootstrap -->
 <link href="Media/css/style.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="Media/rs-plugin/css/settings.css" media="screen" />
+<link rel="stylesheet" href="Media/css/splide.min.css">
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -182,7 +183,39 @@
     <div class="wrapper">
         <h2>Portfolio</h2>
 
-        
+        <div id="image-slider" class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide"><img src="Media/portfolio/1.jpg"></li>
+              <li class="splide__slide"><img src="Media/portfolio/2.jpg"></li>
+              <li class="splide__slide"><img src="Media/portfolio/3.jpg"></li>
+              <li class="splide__slide"><img src="Media/portfolio/4.jpg"></li>
+              <li class="splide__slide"><img src="Media/portfolio/5.jpg"></li>
+              <li class="splide__slide"><img src="Media/portfolio/6.jpg"></li>
+              <li class="splide__slide"><img src="Media/portfolio/7.jpg"></li>
+              <li class="splide__slide"><img src="Media/portfolio/8.jpg"></li>
+              <li class="splide__slide"><img src="Media/portfolio/9.jpg"></li>
+              <li class="splide__slide"><img src="Media/portfolio/10.jpg"></li>  
+              <li class="splide__slide"><img src="Media/portfolio/11.png"></li>
+              <li class="splide__slide"><img src="Media/portfolio/12.jpg"></li>  
+              <li class="splide__slide"><img src="Media/portfolio/13.jpg"></li>
+              <li class="splide__slide"><img src="Media/portfolio/14.png"></li>                 
+            </ul>
+          </div>
+        </div>
+        <script>
+          document.addEventListener( 'DOMContentLoaded', function () {
+            new Splide( '#image-slider', {
+              'cover'      : true,
+              'heightRatio': .8,
+              'fixedWidth': 480,
+              'fixedHeight': 550,
+              'perPage': 2,
+              'gap': 30,
+              'perMove': 2,
+            } ).mount();
+          } );
+        </script>
     </div> <!-- end of wrapper -->
 </section> <!-- end of contentWhite -->
 
@@ -211,6 +244,7 @@
 <script src="Media/js/vendor/superfish.js" type="text/javascript"></script>
 <script src="Media/js/vendor/parallax.min.js" type="text/javascript"></script>
 <script src="Media/js/vendor/holder.js" type="text/javascript"></script>
+<script src="Media/js/splide.min.js"></script>
 <script src="Media/js/main.js" type="text/javascript"></script>
 
 </body>

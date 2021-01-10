@@ -393,6 +393,11 @@ body {
 	text-align:left;
 }
 
+.splide__slide img {
+	width : 450px;
+	height: auto;
+}
+
 /*
     border-radius:6px;
 	-moz-border-radius:6px;
