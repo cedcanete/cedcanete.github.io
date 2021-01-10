@@ -1,0 +1,64 @@
+@media (min-width:980px) and (max-width:1150px){	
+	/* Predefined */
+	/* Header */
+	/* Banner */
+	/* Content */
+	/* Footer */
+	/* Classes */	
+}
+@media (min-width: 768px) and (max-width: 979px){	
+	/* Predefined */
+	/* Header */
+	/* Banner */
+	/* Content */
+	/* Footer */
+	/* Classes */	
+}
+@media (max-width: 767px){
+	/* Predefined */
+	body{font-size:0.875em;}
+	h1, .h1{font-size:2.5em; padding-bottom:15px;}
+	h2, .h2{font-size:1.8em; padding-bottom:12px; margin-bottom:10px;}
+	h3, .h3{ font-size:1.4em; padding-bottom:12px; margin-bottom:10px;}
+	h4, .h4{padding-bottom:12px; font-size:1.1em;}
+	p{margin-bottom:10px;}
+	/* Header */	
+	#header .wrapper{padding-bottom:2px !important; padding-top:10px !important;}
+	#header .wrapper .logo{text-align:center;}
+	#header .headerRight{padding-top:0px;}
+	/* Banner */
+	#page-title .wrapper{padding-top:130px; min-height:220px;}
+	/* Content */
+	.contentGreen .wrapper, .contentLightGray .wrapper, .contentNature .wrapper, .contentWhite .wrapper, .contentGray .wrapper{padding-bottom:8px; padding-top:15px;}
+	/* Footer */
+	#footer .wrapper{padding-bottom:10px; padding-top:10px; text-align:center;}
+	#navFooter{text-align:center;}
+	/* Classes */
+	.features{padding:10px 10%;}
+	.features figcaption{padding-top:14px; font-size:1.175em;}
+	.info-box{padding:12px 10px 0;}
+	.info-box h4{padding-bottom:12px;}
+	.list-links li{padding:12px 0 0;}
+	.howTo-holder .howTo-bg-btm .row{padding-bottom:10px; padding-top:10px; text-align:center;}
+	.howTo-holder .howTo-bg-btm .row aside:first-child{background-color:#fff; padding-right:0;}
+	.howTo-holder .howTo-bg-btm .row aside:last-child{background-color:#fff; padding-left:0;}	
+	.howTo-holder .howTo-bg-btm .row aside:first-child.col-sm-push-6{padding-left:0;}
+	.howTo-holder .howTo-bg-btm .row aside:last-child.col-sm-pull-6{padding-right:0;}
+	.howTo-holder .howTo-bg-btm .paddngTop50{padding-top:0;}
+	.pricing-box{margin:12px 0;}
+	.pricing-box .details{min-height:150px;}	
+	.single-faq{padding-top:10px;}
+	.single-faq h4{padding-bottom:4px;}
+	.faq-answer{padding-bottom:6px;}
+	.paddingRight36{padding-right:0;}
+	.paddingLeft36{padding-left:0;}
+	.paddngTop50{padding-top:20px;}		
+}
+@media (max-width: 480px){
+	/* Predefined */
+	/* Header */
+	/* Banner */
+	/* Content */
+	/* Footer */
+	/* Classes */	
+}
